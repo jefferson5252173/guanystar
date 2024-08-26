@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>guanystar</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">guanystar</a>
+        <nav>
+            <a href="home.html" class="active">Home</a>
+            <a href="services.html">Services</a>
+            <a href="skills.html">Skills</a>
+            <a href="education.html">Education</a>
+            <a href="experience.html">Experience</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="img/main.jpg" alt="Imagen principal">
+        </div>
+        <div class="home-content">
+            <h1><span>guanystar</span></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus labore dolores esse. Odit similique doloribus tenetur doloremque, sunt commodi in ipsa repudiandae debitis deleniti blanditiis quibusdam quaerat neque asperiores ea.</p>
+            <a href="start.html" class="btn">iniciar</a>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="posts">
+        <div class="post-form">
+            <h2>Crear Publicación</h2>
+            <form id="postForm">
+                <textarea id="postContent" placeholder="¿Qué estás pensando?" required></textarea>
+                <button type="submit" class="btn">Publicar</button>
+            </form>
+        </div>
+        <div class="post-list" id="postList">
+            <!-- Aquí se cargarán las publicaciones -->
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
